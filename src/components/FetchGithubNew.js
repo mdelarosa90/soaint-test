@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Fragment } from 'react';
 
-/** Creamos el Componente como Función y usaremos los Hooks de React Para la presentación */
+/** Creamos el Componente como Función y usaremos los Hooks de React para manejar su ciclo*/
 
 export const FetchGithubNew = () => {
 	const [ state, setState ] = useState({ name: '', location: '' });
